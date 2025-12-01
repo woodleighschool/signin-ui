@@ -1,27 +1,12 @@
-# editorconfig.org
+# top-most EditorConfig file
 root = true
 
+# Unix-style newlines with a newline ending every file
 [*]
-indent_style = space
-indent_size = 2
 end_of_line = lf
-charset = utf-8
-trim_trailing_whitespace = true
 insert_final_newline = true
+# trim_trailing_whitespace may cause unintended issues and should not be globally set true
+trim_trailing_whitespace = false
 
-# Python files
-[*.py]
-indent_size = 4
-max_line_length = 88
-
-# JavaScript files (Vite frontend)
-[*.js]
-indent_size = 2
-
-# CSS files
-[*.css]
-indent_size = 2
-
-# Dockerfile
-[Dockerfile]
+indent_style = space
 indent_size = 4

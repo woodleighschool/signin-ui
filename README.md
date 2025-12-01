@@ -1,4 +1,4 @@
-# papercut-checkin
+# signin-ui
 
 Simple kiosk webapp for student check-in / check-out.
 
